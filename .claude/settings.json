@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git checkout *)",
+      "Bash(git switch *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git push -u origin claude/rumbo-noche)",
+      "Bash(git push origin claude/rumbo-noche)",
+      "Bash(git push)",
+      "Bash(gh pr create *)",
+      "Bash(mkdir *)"
+    ],
+    "deny": [
+      "Bash(git push origin main *)",
+      "Bash(git push -f *)",
+      "Bash(git push --force *)",
+      "Bash(git reset --hard *)"
+    ]
+  }
+}
